@@ -1,0 +1,17 @@
+Welcome to the profile statistics browser.
+result% result% Tue Mar  4 18:08:03 2025    result
+
+         765375 function calls (740926 primitive calls) in 2.106 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1955 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    170/1    0.002    0.000    2.106    2.106 {built-in method builtins.exec}
+        1    0.000    0.000    2.106    2.106 financial.py:1(<module>)
+        1    0.000    0.000    1.564    1.564 financial.py:9(main)
+        1    0.000    0.000    1.170    1.170 /Users/admin/Desktop/DS/03/DS_Bootcamp.Day03-1/src/ex02/bs_pt_venv/lib/python3.13/site-packages/requests/api.py:62(get)
+        1    0.000    0.000    1.170    1.170 /Users/admin/Desktop/DS/03/DS_Bootcamp.Day03-1/src/ex02/bs_pt_venv/lib/python3.13/site-packages/requests/api.py:14(request)
+
+
+result% 
