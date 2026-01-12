@@ -36,7 +36,6 @@ def main(ticker, field):
     else:
         raise Exception(f'{response.status_code}    The URL does not exist or site is not responding')
 
-
 if __name__ == '__main__':
     try:
         ticker, field = sys.argv[1:]
