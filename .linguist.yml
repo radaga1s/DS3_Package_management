@@ -1,0 +1,58 @@
+---
+linguist:
+  language: Python
+  detected: true
+
+linguist-documentation:
+  - docs/
+  - "*.md"
+  - "*.txt"
+  - README
+  - LICENSE
+  - "*.pdf"
+  - "*.docx"
+
+linguist-generated:
+  - "*.pyc"
+  - "__pycache__/"
+  - ".venv/"
+  - "venv/"
+  - "env/"
+  - "*.env"
+  - ".env*"
+  - ".DS_Store"
+
+linguist-vendored:
+  - "*.xlsx"
+  - "*.xls"
+  - "*.xlsm"
+  - "*.ods"
+  - "*.zip"
+  - "*.tar"
+  - "*.gz"
+  - "*.7z"
+  - "*.rar"
+  - "*.png"
+  - "*.jpg"
+  - "*.jpeg"
+  - "*.gif"
+  - "*.svg"
+  - "*.ico"
+
+overrides:
+  "requirements.txt":
+    language: "Python"
+  "*.sql":
+    language: "SQL"
+  "*.dml":
+    language: "SQL"
+  "*.db":
+    language: "SQL"
+  "*.sqlite":
+    language: "SQL"
+  "*.sqlite3":
+    language: "SQL"
+  "*.db3":
+    language: "SQL"
+  "*.ipynb":
+    language: "Jupyter Notebook"
